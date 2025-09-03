@@ -45,24 +45,3 @@ I implemented and evaluated three different regression models to predict house p
 | **Polynomial Regression** | 0.70 | 0.86 | 1.30 | 1.14 |
 
 The **Multiple Linear Regression model** achieved the highest performance with an **R²-score of 0.75**. This means the model explains approximately 75% of the variability in the house prices, indicating a strong predictive capability.
-
----
-
-### How to Run the Project
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/khanbakir/Boston-House-Price-Prediction.git](https://github.com/khanbakir/Boston-House-Price-Prediction.git)
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd Boston-House-Price-Prediction
-    ```
-3.  **Install the necessary libraries:**
-    ```bash
-    pip install pandas numpy scikit-learn matplotlib seaborn
-    ```
-4.  **Run the Jupyter Notebook:**
-    ```bash
-    jupyter notebook "Boston House Price Prediction.ipynb"
-    ```
